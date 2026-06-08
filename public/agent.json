@@ -1,0 +1,11 @@
+{
+  "type": "Agent",
+  "name": "UtilityPay Agent",
+  "description": "An onchain agent for everyday utility payments on Celo — airtime, data, and bill top-ups paid in stablecoins with gas abstracted.",
+  "image": "",
+  "endpoints": [
+    { "type": "a2a", "url": "https://utilitypay.vercel.app/.well-known/agent.json" },
+    { "type": "wallet", "address": "0x1724707c52de2fa65ad9c586b5d38507f52D3c06", "chainId": 42220 }
+  ],
+  "supportedTrust": ["reputation", "validation"]
+}
